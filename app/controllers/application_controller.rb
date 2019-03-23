@@ -7,4 +7,8 @@ class ApplicationController < Sinatra::Base
     set :session_secret, "kV&2!Qm{"
   end
 
+  get "/" do
+    erb :'index'
+  end
+
 end
